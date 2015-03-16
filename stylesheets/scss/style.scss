@@ -1,5 +1,6 @@
 @import "bootstrap";
 
+
 body {
   padding-top: 50px;
 }
@@ -7,4 +8,24 @@ body {
 .starter-template {
   padding: 40px 15px;
   text-align: center;
+}
+
+
+@media (max-width: $screen-xs-max) {
+	@import "_xs_max";
+}
+@media (min-width: $screen-sm-min) {
+	@import "_sm_min";
+}
+@media (max-width: $screen-sm-max) {
+	@import "_sm_max";
+}
+@media (min-width: $screen-md-min) {
+	@import "_md_min";
+}
+@media (max-width: $screen-md-max) {
+	@import "_md_max";
+}
+@media (min-width: $screen-lg-min) {
+	@import "_lg_min";
 }

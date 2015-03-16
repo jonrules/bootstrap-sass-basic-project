@@ -4,7 +4,7 @@
             "sass.enabled": true,
             "sass.options": {
                 "outputDir": "../css/",
-                "includePaths": [],
+                "includePaths": ["bootstrap"],
                 "imagePath": null,
                 "sourceComments": "map",
                 "outputStyle": "compressed"
